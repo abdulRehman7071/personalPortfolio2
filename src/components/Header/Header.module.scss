@@ -1,4 +1,4 @@
-@import './../../styles/contants.scss';
+@import "./../../styles/contants.scss";
 
 .wrapper {
     position: relative;
@@ -20,9 +20,7 @@
         }
 
         .menu {
-
-            @media (max-width: $sm),
-            (max-width: $md) {
+            @media (max-width: $sm), (max-width: $md) {
                 position: absolute;
                 list-style: none;
                 gap: 2rem;
@@ -75,12 +73,8 @@
             }
         }
 
-
-
         .menuIcon {
-
-            @media (max-width: $sm),
-            (max-width: $md) {
+            @media (max-width: $sm), (max-width: $md) {
                 display: block;
             }
 

@@ -1,0 +1,45 @@
+.wrapper .container .skillsTitle {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .container .skillsCollection {
+  width: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper .container .skillsCollection .icons {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+}
+.wrapper .container .skillsCollection .icons svg {
+  margin: 10px;
+}
+.wrapper .container .skillsCollection .icons .iconsNumber {
+  position: absolute;
+  top: 0;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  text-align: center;
+  font-size: 1rem;
+  background-color: white;
+  opacity: 0.8;
+  visibility: hidden;
+  transition: all ease-in-out;
+}
+.wrapper .container .skillsCollection .icons:hover .iconsNumber {
+  visibility: visible;
+}/*# sourceMappingURL=skills.module.css.map */

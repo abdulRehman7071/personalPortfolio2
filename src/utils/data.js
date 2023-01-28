@@ -1,6 +1,139 @@
-import { FaReact } from "react-icons/fa";
-import { SiJavascript, SiTailwindcss } from "react-icons/si";
+import { FaReact, FaCss3Alt, FaBootstrap } from "react-icons/fa";
+import { SiJavascript, SiTailwindcss, SiRedux, SiMongodb, SiNetlify, SiVercel, SiJava, SiPython, SiFirebase, SiGitlab, SiNextdotjs } from "react-icons/si";
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiSass, DiGit } from "react-icons/di";
+import { GrMysql } from "react-icons/gr";
+import { BsGithub } from "react-icons/bs";
+import { FiFigma } from "react-icons/fi";
 // import { SiTailwindcss } from "react-icons/md";
+export const skillsCollection = [
+  {
+    tech: SiNextdotjs,
+    proficient: 90,
+    color: '#000000',
+    url: ''
+  },
+  {
+    tech: FaReact,
+    proficient: 95,
+    color: '#5ED4F3',
+    url: ''
+  },
+  {
+    tech: SiRedux,
+    proficient: 90,
+    color: '#764ABC',
+    url: ''
+  },
+  {
+    tech: SiFirebase,
+    proficient: 80,
+    color: '#F2C027',
+    url: ''
+  },
+
+  {
+    tech: SiJavascript,
+    proficient: 95,
+    color: '#E8D44D',
+    url: ''
+  },
+
+  {
+    tech: AiFillHtml5,
+    proficient: 97,
+    color: '#F06427',
+    url: ''
+  },
+  {
+    tech: FaCss3Alt,
+    proficient: 98,
+    color: '#2349D7',
+    url: ''
+  },
+  {
+    tech: DiSass,
+    proficient: 94,
+    color: '#C76395',
+    url: ''
+  },
+  {
+    tech: SiTailwindcss,
+    proficient: 96,
+    color: '#36B7F0',
+    url: ''
+  },
+
+  {
+    tech: FaBootstrap,
+    proficient: 89,
+    color: '#7952B3',
+    url: ''
+  },
+  {
+    tech: SiJava,
+    proficient: 85,
+    color: '#0C83BD',
+    url: ''
+  },
+  {
+    tech: SiPython,
+    proficient: 87,
+    color: '#F2CC38',
+    url: ''
+  },
+  {
+    tech: SiGitlab,
+    proficient: 90,
+    color: '#E24329',
+    url: ''
+  },
+  {
+    tech: DiGit,
+    proficient: 92,
+    color: '#F03C2E',
+    url: ''
+  },
+  {
+    tech: BsGithub,
+    proficient: 92,
+    color: '#00000',
+    url: ''
+  },
+  {
+    tech: SiMongodb,
+    proficient: 75,
+    color: '#4BA13E',
+    url: ''
+  },
+  {
+    tech: GrMysql,
+    proficient: 85,
+    color: '#D06F30',
+    url: ''
+  },
+  {
+    tech: SiNetlify,
+    proficient: 90,
+    color: '#25C7B7',
+    url: ''
+  },
+  {
+    tech: SiVercel,
+    proficient: 90,
+    color: '#000000',
+    url: ''
+  },
+  {
+    tech: FiFigma,
+    proficient: 80,
+    color: '#000000',
+    url: ''
+  },
+
+]
+
+
 export const projectExperience = [
   {
     name: "React.Js",
@@ -34,14 +167,14 @@ export const workExp = [
     tenure: "Jul 2022 - Jan 2023",
     role: "Frontend Developer Intern",
     detail:
-      "6 Month's training cum Internship in React.Js, JavaScript, HTML, CSS. Worked on Live Project of Attendance Management.",
+      "Worked on Live project of profile management, got trained on frontend technologies like React.JS, JavaScript, HTML5, CSS3, SCSS, Tailwind, Bootstrap, git, gitHub.",
   },
   {
     place: "Don Bosco Institute of Technology",
     tenure: "Aug 2018 - Jun 2022",
     role: "Engineering Graduate",
     detail:
-      "B.E. - E.X.T.C - Cultural Secretary, Event and PR Marketing Head of E-cell, Represented College National Level ",
+      "Cultural Secretary, Event and PR Marketing Head of Entrepreneurship Cell,  Robocon 2020 Team Member, Drama Club Member,  National Service Scheme",
   },
   {
     place: "S.M. Shetty Jr. College",
