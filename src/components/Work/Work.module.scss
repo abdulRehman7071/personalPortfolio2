@@ -51,6 +51,16 @@
                     flex: 1;
                     padding-top: 0.8rem;
                     z-index: 2;
+                    @media (max-width: $sm) {
+                        &:nth-child(3) {
+                            // margin-top: 100%;
+                            margin-top: 50px;
+                        }
+                        &:nth-child(4) {
+                            // margin-top: 100%;
+                            margin-top: 50px;
+                        }
+                    }
 
                     .circle {
                         border-radius: 50%;

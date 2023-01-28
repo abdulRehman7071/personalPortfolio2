@@ -47,7 +47,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="./Abdul_Fronted_2022.pdf" download>
                 Resume
               </a>
             </li>

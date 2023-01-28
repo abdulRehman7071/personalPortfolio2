@@ -5,6 +5,7 @@
 .innerWidth {
   width: 100%;
 }
+
 @media (min-width: 1536px) {
   .innerWidth {
     max-width: 1280px;
@@ -18,17 +19,22 @@
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
 @media (min-width: 640px) {
   .paddings {
     padding: 4rem;
   }
 }
-@media (min-width: 1280px), (min-width: 768px) {
+
+@media (min-width: 1280px),
+(min-width: 768px) {
   .paddings {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 }
+
+
 
 .xPaddings {
   padding-left: 1.5rem;
@@ -36,6 +42,7 @@
   padding-right: 1.5rem;
   /* 24px */
 }
+
 @media (min-width: 640px) {
   .xPaddings {
     padding-left: 4rem;
@@ -47,12 +54,14 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
 @media (min-width: 640px) {
   .yPaddings {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
 }
+
 @media (min-width: 1280px) {
   .yPaddings {
     padding-top: 2rem;
@@ -63,11 +72,13 @@
 .topPaddings {
   padding-top: 3rem;
 }
+
 @media (min-width: 640px) {
   .topPaddings {
     padding-top: 4rem;
   }
 }
+
 @media (min-width: 1280px) {
   .topPaddings {
     padding-top: 2rem;
@@ -77,11 +88,13 @@
 .bottomPaddings {
   padding-bottom: 3rem;
 }
+
 @media (min-width: 640px) {
   .bottomPaddings {
     padding-bottom: 4rem;
   }
 }
+
 @media (min-width: 1280px) {
   .bottomPaddings {
     padding-bottom: 2rem;
@@ -109,6 +122,7 @@
   font-size: 3rem;
   font-weight: bold;
 }
+
 @media (max-width: 640px) {
   .primaryText {
     font-size: 2.5rem;
@@ -120,6 +134,7 @@
   font-size: 1.3rem;
   font-weight: 500;
 }
+
 @media (max-width: 640px) {
   .secondaryText {
     font-size: 1.1rem;
@@ -132,4 +147,6 @@
   position: relative;
   top: -100px;
   visibility: hidden;
-}/*# sourceMappingURL=global.css.map */
+}
+
+/*# sourceMappingURL=global.css.map */

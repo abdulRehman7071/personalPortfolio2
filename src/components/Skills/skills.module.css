@@ -2,10 +2,20 @@
   display: flex;
   flex-direction: column;
 }
+.wrapper .container .skillsTitle > span:nth-child(2) {
+  margin: 10px 0;
+}
 .wrapper .container .skillsCollection {
   width: 25rem;
   display: flex;
   flex-wrap: wrap;
+}
+@media (max-width: 640px) {
+  .wrapper .container .skillsCollection {
+    padding: 0.5rem;
+    justify-content: center;
+    width: 30rem;
+  }
 }
 .wrapper .container .skillsCollection .icons {
   background-color: white;
@@ -42,4 +52,4 @@
 }
 .wrapper .container .skillsCollection .icons:hover .iconsNumber {
   visibility: visible;
-}/*# sourceMappingURL=skills.module.css.map */
+}/*# sourceMappingURL=Skills.module.css.map */

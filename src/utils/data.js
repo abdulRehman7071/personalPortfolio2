@@ -11,124 +11,124 @@ export const skillsCollection = [
     tech: SiNextdotjs,
     proficient: 90,
     color: '#000000',
-    url: ''
+    url: 'https://nextjs.org/'
   },
   {
     tech: FaReact,
     proficient: 95,
     color: '#5ED4F3',
-    url: ''
+    url: 'https://reactjs.org/'
   },
   {
     tech: SiRedux,
     proficient: 90,
     color: '#764ABC',
-    url: ''
+    url: 'https://redux.js.org/'
   },
   {
     tech: SiFirebase,
     proficient: 80,
     color: '#F2C027',
-    url: ''
+    url: 'https://firebase.google.com/'
   },
 
   {
     tech: SiJavascript,
     proficient: 95,
     color: '#E8D44D',
-    url: ''
+    url: 'https://www.javascript.com/'
   },
 
   {
     tech: AiFillHtml5,
     proficient: 97,
     color: '#F06427',
-    url: ''
+    url: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics'
   },
   {
     tech: FaCss3Alt,
     proficient: 98,
     color: '#2349D7',
-    url: ''
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
   },
   {
     tech: DiSass,
     proficient: 94,
     color: '#C76395',
-    url: ''
+    url: 'https://sass-lang.com/'
   },
   {
     tech: SiTailwindcss,
     proficient: 96,
     color: '#36B7F0',
-    url: ''
+    url: 'https://tailwindcss.com/'
   },
 
   {
     tech: FaBootstrap,
     proficient: 89,
     color: '#7952B3',
-    url: ''
+    url: 'https://getbootstrap.com/'
   },
   {
     tech: SiJava,
     proficient: 85,
     color: '#0C83BD',
-    url: ''
+    url: 'https://www.java.com/en/'
   },
   {
     tech: SiPython,
     proficient: 87,
     color: '#F2CC38',
-    url: ''
+    url: 'https://www.python.org/'
   },
   {
     tech: SiGitlab,
     proficient: 90,
     color: '#E24329',
-    url: ''
+    url: 'https://about.gitlab.com/'
   },
   {
     tech: DiGit,
     proficient: 92,
     color: '#F03C2E',
-    url: ''
+    url: 'https://git-scm.com/'
   },
   {
     tech: BsGithub,
     proficient: 92,
     color: '#00000',
-    url: ''
+    url: 'https://github.com/'
   },
   {
     tech: SiMongodb,
     proficient: 75,
     color: '#4BA13E',
-    url: ''
+    url: 'https://www.mongodb.com/cloud/atlas/lp/try4?utm_source=bing&utm_campaign=search_bs_pl_evergreen_atlas_core_prosp-brand_gic-null_apac-in_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=415204524&adgroup=1207264237113792&msclkid=bed4db63c2cb109732a5b8b6aa18592a'
   },
   {
     tech: GrMysql,
     proficient: 85,
     color: '#D06F30',
-    url: ''
+    url: 'https://www.sqltutorial.org/'
   },
   {
     tech: SiNetlify,
     proficient: 90,
     color: '#25C7B7',
-    url: ''
+    url: 'https://www.netlify.com/'
   },
   {
     tech: SiVercel,
     proficient: 90,
     color: '#000000',
-    url: ''
+    url: 'https://vercel.com/'
   },
   {
     tech: FiFigma,
     proficient: 80,
     color: '#000000',
-    url: ''
+    url: 'https://www.figma.com/'
   },
 
 ]

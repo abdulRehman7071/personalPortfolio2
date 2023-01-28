@@ -4,11 +4,20 @@
         .skillsTitle {
             display: flex;
             flex-direction: column;
+            > span:nth-child(2) {
+                margin: 10px 0;
+            }
         }
         .skillsCollection {
             width: 25rem;
             display: flex;
             flex-wrap: wrap;
+            @media (max-width: $sm) {
+                padding: 0.5rem;
+                justify-content: center;
+                width: 30rem;
+            }
+
             .icons {
                 background-color: white;
                 display: flex;

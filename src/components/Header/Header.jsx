@@ -33,11 +33,12 @@ const Header = () => {
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
-          <li><a href="#experties">About Me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#work">Experience</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li className={`flexCenter ${css.phone}`}>
+          <li onClick={() => setMenuOpened((prev) => !prev)}><a href="#">Home</a></li>
+          <li onClick={() => setMenuOpened((prev) => !prev)}><a href="#experties">About Me</a></li>
+          <li onClick={() => setMenuOpened((prev) => !prev)}><a href="#portfolio">Portfolio</a></li>
+          <li onClick={() => setMenuOpened((prev) => !prev)}><a href="#work">Experience</a></li>
+          <li onClick={() => setMenuOpened((prev) => !prev)}><a href="#skills">Skills</a></li>
+          <li onClick={() => setMenuOpened((prev) => !prev)} className={`flexCenter ${css.phone}`}>
             <a href="tel:8369017007">
               <p>8369017007</p> </a>
             <a href="tel:8369017007">
