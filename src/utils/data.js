@@ -8,10 +8,35 @@ import { FiFigma } from "react-icons/fi";
 // import { SiTailwindcss } from "react-icons/md";
 export const skillsCollection = [
   {
-    tech: SiNextdotjs,
-    proficient: 90,
-    color: '#000000',
-    url: 'https://nextjs.org/'
+    tech: SiJavascript,
+    proficient: 95,
+    color: '#E8D44D',
+    url: 'https://www.javascript.com/'
+  },
+
+  {
+    tech: AiFillHtml5,
+    proficient: 95,
+    color: '#F06427',
+    url: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics'
+  },
+  {
+    tech: FaCss3Alt,
+    proficient: 95,
+    color: '#2349D7',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+  },
+  {
+    tech: DiSass,
+    proficient: 94,
+    color: '#C76395',
+    url: 'https://sass-lang.com/'
+  },
+  {
+    tech: SiTailwindcss,
+    proficient: 96,
+    color: '#36B7F0',
+    url: 'https://tailwindcss.com/'
   },
   {
     tech: FaReact,
@@ -33,40 +58,14 @@ export const skillsCollection = [
   },
 
   {
-    tech: SiJavascript,
-    proficient: 95,
-    color: '#E8D44D',
-    url: 'https://www.javascript.com/'
+    tech: SiNextdotjs,
+    proficient: 80,
+    color: '#000000',
+    url: 'https://nextjs.org/'
   },
-
-  {
-    tech: AiFillHtml5,
-    proficient: 97,
-    color: '#F06427',
-    url: 'https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics'
-  },
-  {
-    tech: FaCss3Alt,
-    proficient: 98,
-    color: '#2349D7',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
-  },
-  {
-    tech: DiSass,
-    proficient: 94,
-    color: '#C76395',
-    url: 'https://sass-lang.com/'
-  },
-  {
-    tech: SiTailwindcss,
-    proficient: 96,
-    color: '#36B7F0',
-    url: 'https://tailwindcss.com/'
-  },
-
   {
     tech: FaBootstrap,
-    proficient: 89,
+    proficient: 80,
     color: '#7952B3',
     url: 'https://getbootstrap.com/'
   },
@@ -78,7 +77,7 @@ export const skillsCollection = [
   },
   {
     tech: SiPython,
-    proficient: 87,
+    proficient: 85,
     color: '#F2CC38',
     url: 'https://www.python.org/'
   },
@@ -90,13 +89,13 @@ export const skillsCollection = [
   },
   {
     tech: DiGit,
-    proficient: 92,
+    proficient: 90,
     color: '#F03C2E',
     url: 'https://git-scm.com/'
   },
   {
     tech: BsGithub,
-    proficient: 92,
+    proficient: 90,
     color: '#00000',
     url: 'https://github.com/'
   },
