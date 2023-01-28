@@ -136,7 +136,7 @@ export const skillsCollection = [
 
 export const projectExperience = [
   {
-    name: "React.Js",
+    name: "React.JS",
     projects: 16,
     icon: FaReact,
     bg: "#61dafb",
