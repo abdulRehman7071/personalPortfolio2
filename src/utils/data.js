@@ -96,7 +96,7 @@ export const skillsCollection = [
   {
     tech: BsGithub,
     proficient: 90,
-    color: '#00000',
+    color: '#000000',
     url: 'https://github.com/'
   },
   {

@@ -12,10 +12,11 @@
             width: 25rem;
             display: flex;
             flex-wrap: wrap;
+            color: #000000;
             @media (max-width: $sm) {
                 padding: 0.5rem;
                 justify-content: center;
-                width: 30rem;
+                // width: 30rem;
             }
 
             .icons {

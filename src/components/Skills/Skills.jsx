@@ -54,21 +54,21 @@ const Skills = () => {
                     className={`${css.skillsCollection}`}>
                     {
                         skillsCollection.map((skill, i) => (
-                            <a href={skill.url} target='_blank' key={i}>
-                                <motion.div
-                                    // whileInView={ }
-                                    viewport={{ once: false, amount: 0.1 }}
+                            // <a href={skill.url} target='_blank'>
+                            <motion.div
+                                // whileInView={ }
+                                viewport={{ once: false, amount: 0.1 }}
+                                key={i}
+                                className={css.icons}
+                                variants={item}
+                            >
+                                <skill.tech size={45} color={skill.color} />
+                                <div className={css.iconsNumber} >
+                                    {skill.proficient}%
+                                </div>
+                            </motion.div>
 
-                                    className={css.icons}
-                                    variants={item}
-                                >
-                                    <skill.tech size={45} color={skill.color} />
-                                    <div className={css.iconsNumber} >
-                                        {skill.proficient}%
-                                    </div>
-                                </motion.div>
-
-                            </a>
+                            // </a>
                         ))
                     }
                 </motion.div>

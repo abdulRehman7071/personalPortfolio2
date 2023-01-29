@@ -21,7 +21,7 @@ const Hero = () => {
           <motion.span className="secondaryText" variants={fadeIn("left", "tween", 0.4, 1)}>
             I built beautiful simple
             <br />
-            things, And I love what i do{" "}
+            websites, And I love what i do{" "}
           </motion.span>
         </div>
 
