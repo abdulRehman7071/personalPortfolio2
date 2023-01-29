@@ -16,7 +16,7 @@ const Portfolio = () => {
       <div className={`innerWidth flexCenter ${css.container}`}>
 
 
-        <motion.div variants={textVariant(.4)} className={`flexCenter ${css.heading}`}>
+        <motion.div variants={textVariant(.4)} whileInView={{ scale: 1 }} className={`flexCenter ${css.heading}`}>
           <div>
             <span className="primaryText">My Latest Works</span>
             <p style={{ marginTop: "10px" }}>Perfect solution for Frontend Needs</p>

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import css from "./Header.module.scss";
 import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
+import { RxCrossCircled } from "react-icons/rx";
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
@@ -52,7 +53,10 @@ const Header = () => {
           className={css.menuIcon}
           onClick={() => setMenuOpened((prev) => !prev)}
         >
-          <BiMenuAltRight size={30} />
+          {
+            menuOpened ? <RxCrossCircled size={30} /> : <BiMenuAltRight size={30} />
+          }
+
         </div>
       </div>
     </motion.div>

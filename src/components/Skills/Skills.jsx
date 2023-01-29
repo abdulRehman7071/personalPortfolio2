@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import { skillsCollection } from '../../utils/data';
 import css from "./Skills.module.scss";
 import { motion, useAnimation } from 'framer-motion';
-import { staggerChildren, staggerContainer, textVariant } from '../../utils/motion';
+import { fadeIn, staggerChildren, staggerContainer, textVariant, zoomIn } from '../../utils/motion';
 import { useInView } from 'framer-motion';
 
 const Skills = () => {
@@ -37,11 +37,9 @@ const Skills = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
-            className={` flexCenter paddings ${css.wrapper}`}
+            className={` flexCenter paddings ${css.wrapper}`}>
 
-
-        >
-            <motion.div variants={textVariant(.4)} className={css.container}>
+            <motion.div variants={zoomIn(0, 0.5)} className={css.container}>
                 <div className={` flexCenter ${css.skillsTitle}`}>
                     <span className="primaryText topPaddings">Skills</span>
                     <span className="marginTop">Technology Stack</span>
@@ -56,7 +54,6 @@ const Skills = () => {
                         skillsCollection.map((skill, i) => (
                             // <a href={skill.url} target='_blank'>
                             <motion.div
-                                // whileInView={ }
                                 viewport={{ once: false, amount: 0.1 }}
                                 key={i}
                                 className={css.icons}
