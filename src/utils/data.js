@@ -1,5 +1,5 @@
-import { FaReact, FaCss3Alt, FaBootstrap } from "react-icons/fa";
-import { SiJavascript, SiTailwindcss, SiRedux, SiMongodb, SiNetlify, SiVercel, SiJava, SiPython, SiFirebase, SiGitlab, SiNextdotjs } from "react-icons/si";
+import { FaReact, FaCss3Alt, FaNodeJs, FaBootstrap } from "react-icons/fa";
+import { SiJavascript, SiExpress, SiTailwindcss, SiRedux, SiMongodb, SiNetlify, SiVercel, SiJava, SiPython, SiFirebase, SiGitlab, SiNextdotjs } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiSass, DiGit } from "react-icons/di";
 import { GrMysql } from "react-icons/gr";
@@ -8,12 +8,35 @@ import { FiFigma } from "react-icons/fi";
 // import { SiTailwindcss } from "react-icons/md";
 export const skillsCollection = [
   {
-    tech: SiJavascript,
-    proficient: 95,
-    color: '#E8D44D',
-    url: 'https://www.javascript.com/'
+    tech: SiMongodb,
+    proficient: 75,
+    color: '#4BA13E',
+    url: 'https://www.mongodb.com/cloud/atlas/lp/try4?utm_source=bing&utm_campaign=search_bs_pl_evergreen_atlas_core_prosp-brand_gic-null_apac-in_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=415204524&adgroup=1207264237113792&msclkid=bed4db63c2cb109732a5b8b6aa18592a'
   },
-
+  {
+    tech: SiExpress,
+    proficient: 75,
+    color: '#000000',
+    // url: 'https://www.mongodb.com/cloud/atlas/lp/try4?utm_source=bing&utm_campaign=search_bs_pl_evergreen_atlas_core_prosp-brand_gic-null_apac-in_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=415204524&adgroup=1207264237113792&msclkid=bed4db63c2cb109732a5b8b6aa18592a'
+  },
+  {
+    tech: FaReact,
+    proficient: 95,
+    color: '#5ED4F3',
+    url: 'https://reactjs.org/'
+  },
+  {
+    tech: FaNodeJs,
+    proficient: 95,
+    color: '#4BA13E',
+    url: 'https://reactjs.org/'
+  },
+  {
+    tech: SiNextdotjs,
+    proficient: 80,
+    color: '#000000',
+    url: 'https://nextjs.org/'
+  },
   {
     tech: AiFillHtml5,
     proficient: 95,
@@ -27,6 +50,19 @@ export const skillsCollection = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
   },
   {
+    tech: SiJavascript,
+    proficient: 95,
+    color: '#E8D44D',
+    url: 'https://www.javascript.com/'
+  },
+
+  {
+    tech: SiRedux,
+    proficient: 90,
+    color: '#764ABC',
+    url: 'https://redux.js.org/'
+  },
+  {
     tech: DiSass,
     proficient: 94,
     color: '#C76395',
@@ -38,17 +74,13 @@ export const skillsCollection = [
     color: '#36B7F0',
     url: 'https://tailwindcss.com/'
   },
+
+
   {
-    tech: FaReact,
-    proficient: 95,
-    color: '#5ED4F3',
-    url: 'https://reactjs.org/'
-  },
-  {
-    tech: SiRedux,
-    proficient: 90,
-    color: '#764ABC',
-    url: 'https://redux.js.org/'
+    tech: FaBootstrap,
+    proficient: 80,
+    color: '#7952B3',
+    url: 'https://getbootstrap.com/'
   },
   {
     tech: SiFirebase,
@@ -57,18 +89,6 @@ export const skillsCollection = [
     url: 'https://firebase.google.com/'
   },
 
-  {
-    tech: SiNextdotjs,
-    proficient: 80,
-    color: '#000000',
-    url: 'https://nextjs.org/'
-  },
-  {
-    tech: FaBootstrap,
-    proficient: 80,
-    color: '#7952B3',
-    url: 'https://getbootstrap.com/'
-  },
   {
     tech: SiJava,
     proficient: 85,
@@ -99,12 +119,7 @@ export const skillsCollection = [
     color: '#000000',
     url: 'https://github.com/'
   },
-  {
-    tech: SiMongodb,
-    proficient: 75,
-    color: '#4BA13E',
-    url: 'https://www.mongodb.com/cloud/atlas/lp/try4?utm_source=bing&utm_campaign=search_bs_pl_evergreen_atlas_core_prosp-brand_gic-null_apac-in_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=415204524&adgroup=1207264237113792&msclkid=bed4db63c2cb109732a5b8b6aa18592a'
-  },
+
   {
     tech: GrMysql,
     proficient: 85,
