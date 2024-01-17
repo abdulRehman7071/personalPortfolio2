@@ -180,9 +180,7 @@ export const projectExperience = [
 ];
 
 export const About = [
-  "Completed 6 Months of Training cum Internship in Frontend Development from Top Centile, Mumbai",
-  "Tech-Stack : HTML, CSS, JavaScript, React.Js, Bootstrap, Tailiwind, Git, Java, Python, SQL.",
-  "Completed my Engineering from Don Bosco Institute of Technology in 2022",
+  "Passionate Full Stack Developer with over a year's experience in building dynamic and interactive websites. Proficient in numerous technologies including React.Js, Next.Js, Vue.Js, Nuxt.Js, Express, and MongoDB. Graduated from Don Bosco Institute of Technology with a focus on Web Development. I bring to table a strong enthusiasm for coding and innovation, as well as a keen interest in the latest technology trends.",
 ];
 
 export const workExp = [
